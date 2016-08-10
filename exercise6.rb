@@ -15,3 +15,5 @@ if shopping_list.include? "bananans"
   puts "You need to pick up bananas"
 else puts "You don't need to pick up bananas today"
 end
+
+puts shopping_list[1]

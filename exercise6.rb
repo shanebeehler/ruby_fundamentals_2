@@ -1,11 +1,12 @@
 shopping_list = ["Apples", "Chips", "Pizza", "Ketchup"]
 
-shopping_list.each {|item| puts "* #{item}"}
+shopping_list << "Rice"
 
-def groceries(new_item)
-  shopping_list = ["Apples", "Chips", "Pizza", "Ketchup"]
-  shopping_list << new_item
-  shopping_list.each {|item| puts "* #{item}"}
+def groceries(list)
+  list.each {|item| puts "* #{item}"}
 end
 
-groceries("Rice")
+groceries(shopping_list)
+
+puts ""
+puts "There are #{shopping_list.length} items in your list."

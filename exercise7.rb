@@ -21,3 +21,13 @@ end
 students.delete( :cohort2)
 
 list_method(students)
+
+def total_students(hashasauras)
+  total = 0
+    hashasauras.each_value do |v|
+      total += v
+    end
+  puts total
+end
+
+total_students(students)

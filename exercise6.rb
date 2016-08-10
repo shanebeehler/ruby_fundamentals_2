@@ -17,3 +17,5 @@ else puts "You don't need to pick up bananas today"
 end
 
 puts shopping_list[1]
+
+groceries(shopping_list.sort)

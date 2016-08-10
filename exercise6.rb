@@ -10,3 +10,8 @@ groceries(shopping_list)
 
 puts ""
 puts "There are #{shopping_list.length} items in your list."
+
+if shopping_list.include? "bananans"
+  puts "You need to pick up bananas"
+else puts "You don't need to pick up bananas today"
+end

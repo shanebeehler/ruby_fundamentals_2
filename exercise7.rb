@@ -13,3 +13,7 @@ students[ :cohort4] = 43
 list_method(students)
 
 puts students.keys
+
+students.each do |k, v|
+  puts "#{k}: #{v *1.05}"
+end

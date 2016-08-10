@@ -19,3 +19,9 @@ end
 puts shopping_list[1]
 
 groceries(shopping_list.sort)
+
+shopping_list.delete("Ketchup")
+
+puts ""
+
+groceries(shopping_list.sort)
